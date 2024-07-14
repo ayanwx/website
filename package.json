@@ -1,0 +1,27 @@
+{
+    "name": "nuxt-app",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "nuxt build",
+        "dev": "nuxt dev --host",
+        "generate": "nuxt generate",
+        "preview": "nuxt preview",
+        "postinstall": "nuxt prepare",
+        "lint": "prettier . --write"
+    },
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": true
+    },
+    "dependencies": {
+        "@nuxt/image": "^1.7.0",
+        "@nuxtjs/tailwindcss": "^6.12.1",
+        "nuxt": "^3.12.3",
+        "vue": "latest"
+    },
+    "devDependencies": {
+        "prettier": "^3.3.3"
+    }
+}

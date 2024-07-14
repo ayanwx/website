@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "FantasqueSansMNF";
+        src: url("../fonts/FantasqueSansMNerdFont-Regular.ttf");
+    }
+    @font-face {
+        font-family: "M3270NF";
+        src: url("../fonts/3270NerdFont-Regular.ttf");
+    }
+    body {
+        @apply bg-bg text-fg;
+    }
+}
